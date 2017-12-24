@@ -1,0 +1,46 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 15,
+    "editor.detectIndentation": false,
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "'Fira Code Retina', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "[cpp]": {
+            "editor.quickSuggestions": false
+    },
+    "[c]": {
+            "editor.quickSuggestions": false
+    },
+    "workbench.iconTheme": "vscode-icon-theme",
+    "files.exclude": {
+            "**/.git": true,
+            "**/.DS_Store": true,
+            "**/*.js.map": true,
+            "**/*.js": {"when": "$(basename).ts"},
+            "**/bin": true,
+            "**/obj": true
+        },
+        "sync.gist": "eea165779968b47f0cf61d7c4c397936",
+        "sync.lastUpload": "2017-12-22T18:54:12.332Z",
+        "sync.autoDownload": false,
+        "sync.autoUpload": false,
+        "sync.lastDownload": "",
+        "sync.forceDownload": false,
+        "sync.anonymousGist": false,
+        "sync.host": "",
+        "sync.pathPrefix": "",
+        "sync.quietSync": false,
+        "sync.askGistName": false,
+        "files.autoSave": "afterDelay",
+        "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+        "gitlens.advanced.messages": {
+            "suppressCommitHasNoPreviousCommitWarning": false,
+            "suppressCommitNotFoundWarning": false,
+            "suppressFileNotUnderSourceControlWarning": true,
+            "suppressGitVersionWarning": false,
+            "suppressLineUncommittedWarning": false,
+            "suppressNoRepositoryWarning": false,
+            "suppressUpdateNotice": false,
+            "suppressWelcomeNotice": false
+        }
+    }
